@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(scaffoldBackgroundColor: Colors.white),
       initialRoute: '/',
       routes: {
-        '/':(context) => const First(),
-        '/register':(context) => const Second(),
+        '/':(context) =>  First(),
+        '/register':(context) =>  Second(),
         '/end':(context) => const Last()
       },
     );
